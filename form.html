@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <link href="form_style.css" type="text/css" rel="stylesheet"/>
+        <script type="text/javascript" src "jquery.js"></script>
+        <script type="text/javascript">
+        function add_row()
+        {
+            $rowno=$("#employee_table tr").length;
+            $rowno=$rowno+1;
+            $("#employee_table tr:last").after("<tr id='row"+$rowno+"'><td><input type='text' name='name[]' placeholder='Enter Name'> )
+        }
+        </script>
+
+    </head>
+</html>
